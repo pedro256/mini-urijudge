@@ -1,0 +1,8 @@
+.mainArea{
+    @apply flex justify-center;
+}
+.homeArea{
+    background-color: black;
+    width: 100%;
+    max-width: 870px;
+}

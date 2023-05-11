@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding: 0;
+    background-image: url("/bgd01.png");
+    background-color: #F0F8FF;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+.inpt{
+    border-radius: 4px;
+    padding: 6px;
+    width: 100%;
+}
+.button{
+    border-radius: 4px;
+    @apply py-2 px-6;
+
+}
+.button.primary{
+    background-color: #415997;
+    color:#fff;
+    font-weight: bold;
+}

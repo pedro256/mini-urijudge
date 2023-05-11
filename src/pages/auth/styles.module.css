@@ -1,0 +1,28 @@
+.background{
+    background-color: #1D2333;
+    @apply flex items-center justify-center w-full h-screen;
+}
+.form{
+    padding: 20px;
+    display: block;
+    background-color: #f0f8ff;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 5px;
+    @apply mx-5 md:mx-0;
+}
+.formArea{
+    padding: 4px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.logoArea,.btnArea{
+    @apply flex justify-center;
+}
+.logoView{
+    max-width: 200px;
+    width: 100%;
+}
+.areaRegist{
+    @apply flex justify-end mt-5;
+}
